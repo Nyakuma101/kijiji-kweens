@@ -1,0 +1,16 @@
+[
+  {
+    "profileId": 1,
+    "username": "Christopher Shannon",
+    "memberSince": "2023-02-15",
+    "totalReviews": 15,
+    "averageRating": 4.5
+  },
+  {
+    "profileId": 2,
+    "username": "Simba Paterson",
+    "memberSince": "2022-11-01",
+    "totalReviews": 9,
+    "averageRating": 4.8
+  }
+]
