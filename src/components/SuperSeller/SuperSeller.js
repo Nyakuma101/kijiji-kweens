@@ -13,7 +13,7 @@ export default function SuperSeller({ user }) {
       // Perform action to make the user a superseller
       alert("Congratulations! You are now a superseller!");
       setTimeout(() => {
-        navigate("/");
+        navigate("/homepage2");
       }, 2000);
     } else {
       alert("You do not meet the criteria to become a superseller.");
