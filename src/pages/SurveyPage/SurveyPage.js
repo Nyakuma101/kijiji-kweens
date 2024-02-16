@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./SurveyPage.scss";
+import kijijiLogo from "../../assets/images/Kijiji_Logo_2019.svg";
 
 function CheckboxForm() {
   // State to keep track of checkbox values
@@ -28,8 +29,11 @@ function CheckboxForm() {
 
   return (
     <div className="checkbox">
-      <h1 className="checkbox__title">What are you interested in seeing?</h1>
-      <form onSubmit={handleSubmit}>
+      <div className="checkbox__header">
+        <img className="checkbox__logo" src={kijijiLogo} alt="Kijiji Logo" />
+        <h1 className="checkbox__title">What are you interested in seeing?</h1>
+      </div>
+      <form className="checkbox__form" onSubmit={handleSubmit}>
         <div className="checkbox__wrapper">
           <label className="checkbox__item">
             <input
@@ -212,9 +216,11 @@ function CheckboxForm() {
           </label>
         </div>
         <br />
-        <button className="checkbox__button" type="submit">
-          Submit
-        </button>
+        <div className="checkbox__button-wrapper">
+          <button className="checkbox__button" type="submit">
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );
