@@ -7,9 +7,19 @@
 ## Things to improve
 
 - Design and aesthetics of a website can influence how people perceive and trust a business or organization.
+
   - modern
   - clean
   - easy to navigate
+
+- First Impressions:
+
+  - According to a study by Google, users form an opinion about a website within 50 milliseconds of their first visit.
+  - This underscores the importance of a positive visual impression.
+
+- Trust and Design:
+
+  - The Stanford Web Credibility Project found that 75% of users admit to making judgments about a company's credibility based on their website's design.
 
 ### Mock-ups
 
@@ -57,3 +67,7 @@
 - More reviews = more trust
 
 ![review](../src/assets/images/review2.png)
+![review3](../src/assets/images/review3.png)
+![review4](../src/assets/images/review4.png)
+
+###THANK YOU

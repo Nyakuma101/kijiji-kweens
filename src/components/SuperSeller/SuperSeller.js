@@ -10,7 +10,6 @@ export default function SuperSeller({ user }) {
       hasMinimumReviews(user.totalReviews) &&
       hasMinimumRating(user.averageRating)
     ) {
-      // Perform action to make the user a superseller
       alert("Congratulations! You are now a superseller!");
       setTimeout(() => {
         navigate("/homepage2");
