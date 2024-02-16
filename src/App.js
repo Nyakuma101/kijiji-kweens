@@ -1,7 +1,15 @@
-import "./App.css";
+import "./App.scss";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SurveyPage from "./pages/SurveyPage/SurveyPage.js";
 
 function App() {
-  return <div className="App">Hello</div>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/surveypage" element={<SurveyPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
