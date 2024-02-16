@@ -1,0 +1,17 @@
+@use "../../styles/colors" as *;
+@use "../../styles/fonts" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles/global.scss" as *;
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+  }
+}
