@@ -1,13 +1,20 @@
-// @font-face {
-//   font-family: "Titillium Web";
-//   src: url(../../assets/fonts/TitilliumWeb-Regular.ttf) format("truetype");
-//   font-weight: 400;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "Larsseit";
+  src: url(../assets/fonts/Larsseit.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: "Titillium Web";
-//   src: url(../../assets/fonts/TitilliumWeb-SemiBold.ttf) format("truetype");
-//   font-weight: 600;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "Larsseit";
+  src: url(../assets/fonts/Larsseit-Light.otf) format("opentype");
+  // font-weight: 600;
+  font-style: light;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url(../assets/fonts/Larsseit-Bold.otf) format("opentype");
+  // font-weight: 600;
+  font-style: bold;
+}
