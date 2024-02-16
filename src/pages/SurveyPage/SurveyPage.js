@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./SurveyPage.scss";
 import kijijiLogo from "../../assets/images/Kijiji_Logo_2019.svg";
+import { Link } from "react-router-dom";
 
 function CheckboxForm() {
   // State to keep track of checkbox values
@@ -11,7 +12,8 @@ function CheckboxForm() {
     checkbox3: false,
   });
 
-  // Function to handle checkbox change
+  const [submitted, setSubmitted] = useState(false);
+
   const handleCheckboxChange = (event) => {
     const { name, checked } = event.target;
     setCheckboxes({
@@ -20,11 +22,16 @@ function CheckboxForm() {
     });
   };
 
-  // Function to handle form submission
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Do something with the checkbox values
+
     console.log(checkboxes);
+
+    alert("Preferences changed!");
+
+    setSubmitted(true);
+
+    window.location.href = "/";
   };
 
   return (
@@ -217,9 +224,11 @@ function CheckboxForm() {
         </div>
         <br />
         <div className="checkbox__button-wrapper">
+          {/* <Link to={"/"}> */}
           <button className="checkbox__button" type="submit">
             Submit
           </button>
+          {/* </Link> */}
         </div>
       </form>
     </div>
