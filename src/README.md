@@ -12,9 +12,11 @@
 
 ## Gamification
 
-### Super Seller
+### 1. Super Seller
 
 ![progress tracking](../src/assets/images/progresstracking.png)
 ![profilesummary](../src/assets/images/profilesummary.png)
 
-### Earn Bagdes
+### 2. Earn Rewards
+
+![rewards program](../src/assets/images/rewardsProgram.png)
