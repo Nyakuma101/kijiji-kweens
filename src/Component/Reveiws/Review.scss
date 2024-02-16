@@ -1,0 +1,43 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+&__button {
+  border: 1px solid $Cloud;
+  border-radius: 20px;
+  background-color: $white;
+  color: $Slate;
+  width: 50%;
+  padding: 0.55rem 0;
+  font-size: 0.719rem;
+  cursor: pointer;
+
+  @include tablet {
+    font-size: 0.829rem;
+    padding: 0.6rem 0;
+  }
+
+  &--save {
+    background-color: $Instock-Indigo;
+    color: $white;
+    &:hover {
+      background-color: $Graphite;
+    }
+
+    @include tablet {
+      width: 6.3rem;
+    }
+  }
+
+  &--cancel {
+    &:hover {
+      color: $Instock-Indigo;
+      border-color: $Instock-Indigo;
+    }
+
+    @include tablet {
+      width: 4.5rem;
+      padding: 0.6rem 0;
+    }
+  }
+}
