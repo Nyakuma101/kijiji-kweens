@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./SurveyPage.scss";
 
 function CheckboxForm() {
   // State to keep track of checkbox values
@@ -211,7 +212,9 @@ function CheckboxForm() {
           </label>
         </div>
         <br />
-        <button type="submit">Submit</button>
+        <button className="checkbox__button" type="submit">
+          Submit
+        </button>
       </form>
     </div>
   );
